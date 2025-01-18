@@ -1,0 +1,28 @@
+com.lexori
+│
+├── LexoriApplication.java
+├── controller
+│      ├── UserController.java
+│      ├── ArticleController.java
+│      └── AdminController.java
+├── entity
+│      ├── User.java
+│      ├── Article.java
+│      └── Comment.java
+├── repository
+│      ├── UserRepository.java
+│      ├── ArticleRepository.java
+│      └── CommentRepository.java
+├── service
+│      ├── UserService.java
+│      ├── ArticleService.java
+│      └── AdminService.java
+├── security
+│      ├── JwtAuthFilter.java
+│      ├── JwtUtils.java
+│      ├── SecurityConfig.java
+│      └── CustomUserDetails.java
+└── dto
+       ├── UserDto.java
+       ├── ArticleDto.java
+       └── LoginRequestDto.java
